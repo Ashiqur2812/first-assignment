@@ -45,9 +45,16 @@ body {
 }
 
 .btn-primary {
-    width: 20%;
+    width: 30%;
     margin: 0 auto;
     margin-bottom: 20px;
+    border: none;
+
+}
+
+.hyper {
+    width: 284px;
+    height: 20px;
 }
 
 .btn-contact {
@@ -125,6 +132,11 @@ p {
     text-align: center;
     background-color: white;
 
+
+}
+
+.button a {
+    text-decoration: none;
 }
 
 .image {
@@ -243,13 +255,24 @@ a {
 
 .image-container {
     display: flex;
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
-
 }
 
 .image-content {
     width: 364px;
     height: 320px;
-    border: 2px solid red;
+    border: 2px solid red; 
+}
+
+.secondary-bg{
+    background-color: #FFF6F4;
+}
+
+.third-bg{
+    background-color: #F2F6FE;
+}
+
+.fourth-bg{
+    background-color: #FFFDF2;
 }
