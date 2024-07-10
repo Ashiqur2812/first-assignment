@@ -295,7 +295,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .support-title input {
@@ -305,7 +305,7 @@ a {
     background-color: #FFFFFF;
     border: none;
     border-radius: 4px;
-    
+
 }
 
 .support-title button {
@@ -315,5 +315,19 @@ a {
     color: black;
     font-size: 16px;
     border: none;
-    border-radius: 4px;  
+    border-radius: 4px;
+}
+
+.open-container {
+    width: 1140px;
+    height: 36px;
+    border: 2px solid red;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-image{
+    display: flex;
+    gap: 10px;
 }
