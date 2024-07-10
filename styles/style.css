@@ -95,16 +95,16 @@ body {
 .first-container {
     width: 90%;
     height: 255px;
-    border: 2px solid red; 
+    border: 2px solid red;
     margin: 0 auto;
     margin-top: 54px;
     display: flex;
-    border: 2px solid green; 
+    border: 2px solid green;
 }
 
 .first-content {
     display: flex;
-    border: 2px solid blue; 
+    border: 2px solid blue;
     width: 50%;
     height: 255px;
 }
@@ -140,9 +140,116 @@ p {
     display: flex;
     margin-top: 54px;
 }
+
 .second-content {
-    
+
     border: 2px solid blue;
     width: 50%;
 }
- 
+
+/* third section */
+
+.inspiration-section-container {
+    width: 1140px;
+    height: 777px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.inspiration-section-content {
+    width: 852px;
+    height: 130px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inspiration-section-content h2 {
+    margin-bottom: 20px;
+}
+
+.video-section-container {
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    border: 2px;
+    margin-top: 40px;
+
+
+}
+
+.video-section-content {
+    width: 1076px;
+    height: 540px;
+    margin: 0 auto;
+    border: 2px;
+    margin: 32px 32px;
+}
+
+iframe {
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 10px 20px;
+    margin-top: 15px;
+}
+
+.target-section-container {
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 20px;
+
+}
+
+
+.target-section-content {
+    width: 946px;
+    height: 115px;
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+
+}
+
+h2,
+p {
+    margin-top: 15px;
+}
+
+
+
+.target-container {
+    width: 364px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px 20px;
+    display: flex;
+}
+
+a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.image-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.image-content {
+    width: 364px;
+    height: 320px;
+    border: 2px solid red;
+}
