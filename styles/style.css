@@ -37,10 +37,10 @@ body {
     width: 30%;
     margin: 0 auto;
     margin-bottom: 20px;
-    
+
 }
 
-.first-image img{
+.first-image img {
     margin-top: 20px;
 }
 
@@ -50,7 +50,7 @@ body {
     margin-bottom: 20px;
 }
 
-button {
+.btn-contact {
     padding: 15px 10px;
     background-color: #0D1321;
     color: white;
@@ -63,3 +63,86 @@ button {
     width: 180px;
     height: 60px;
 }
+
+.web-container {
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 74px;
+}
+
+.web-content {
+    width: 946px;
+    height: 1235px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #FAFAFB;
+}
+
+.web-title {
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid red;  */
+}
+
+.web-title h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.first-container {
+    width: 90%;
+    height: 255px;
+    border: 2px solid red; 
+    margin: 0 auto;
+    margin-top: 54px;
+    display: flex;
+    border: 2px solid green; 
+}
+
+.first-content {
+    display: flex;
+    border: 2px solid blue; 
+    width: 50%;
+    height: 255px;
+}
+
+.first-title h3,
+p {
+    margin-bottom: 18px;
+}
+
+.button {
+    padding: 10px 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.image {
+    margin-left: 120px;
+    border: 2px solid green;
+}
+
+.second-container {
+    width: 90%;
+    height: 256px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    margin-top: 54px;
+}
+.second-content {
+    
+    border: 2px solid blue;
+    width: 50%;
+}
+ 
