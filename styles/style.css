@@ -262,17 +262,58 @@ a {
 .image-content {
     width: 364px;
     height: 320px;
-    border: 2px solid red; 
+    border: 2px solid red;
 }
 
-.secondary-bg{
+.secondary-bg {
     background-color: #FFF6F4;
 }
 
-.third-bg{
+.third-bg {
     background-color: #F2F6FE;
 }
 
-.fourth-bg{
+.fourth-bg {
     background-color: #FFFDF2;
+}
+
+
+
+.support-container {
+    width: 1140px;
+    height: 314px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.support-title input {
+    width: 548px;
+    height: 57px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.support-title button {
+    width: 120px;
+    height: 57px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;  
 }
