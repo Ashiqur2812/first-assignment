@@ -75,14 +75,14 @@ body {
     width: 1140px;
     height: 1395px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 74px;
 }
 
 .web-content {
     width: 946px;
     height: 1235px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 80px;
     background-color: #FAFAFB;
@@ -102,16 +102,16 @@ body {
 .first-container {
     width: 90%;
     height: 255px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 54px;
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .first-content {
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50%;
     height: 255px;
 }
@@ -131,8 +131,6 @@ p {
     letter-spacing: 0%;
     text-align: center;
     background-color: white;
-
-
 }
 
 .button a {
@@ -141,46 +139,46 @@ p {
 
 .image {
     margin-left: 120px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .second-container {
     width: 90%;
     height: 256px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red;  */
     display: flex;
     margin-top: 54px;
 }
 
 .second-content {
-
-    border: 2px solid blue;
+    /* border: 2px solid blue;  */
     width: 50%;
 }
-
-/* third section */
 
 .inspiration-section-container {
     width: 1140px;
     height: 777px;
-    border: 2px solid red;
+    /* border: 2px solid red;   */
     margin: 0 auto;
-    margin-top: 80px;
+    /* margin-bottom: 30px; */
+    
 
 }
 
 .inspiration-section-content {
     width: 852px;
     height: 130px;
-    border: 2px solid blue;
-    margin: 0 auto;
+    /* border: 2px solid blue;   */
+    margin: 0 auto; 
     text-align: center;
 }
 
 .inspiration-section-content h2 {
     margin-bottom: 20px;
+   
 }
+/* third section */
 
 .video-section-container {
     width: 1140px;
@@ -188,7 +186,6 @@ p {
     margin: 0 auto;
     border: 2px;
     margin-top: 40px;
-
 
 }
 
@@ -212,7 +209,7 @@ iframe {
     width: 1140px;
     height: 463px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 20px;
 
 }
@@ -222,7 +219,7 @@ iframe {
     width: 946px;
     height: 115px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 
 }
@@ -237,7 +234,7 @@ p {
 .target-container {
     width: 364px;
     height: 300px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px 20px;
     display: flex;
 }
@@ -262,7 +259,7 @@ a {
 .image-content {
     width: 364px;
     height: 320px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .secondary-bg {
@@ -282,12 +279,13 @@ a {
 .support-container {
     width: 1140px;
     height: 314px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 0 auto;
     margin-top: 60px;
     background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 4px;
 }
 
 .support-content {
@@ -321,13 +319,107 @@ a {
 .open-container {
     width: 1140px;
     height: 36px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
 
-.open-image{
+.open-image {
     display: flex;
     gap: 10px;
+}
+
+.next-target-container {
+    width: 1140px;
+    height: 871px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+}
+
+.next-target-content {
+    width: 946px;
+    height: 115px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.react-container {
+    width: 1140px;
+    height: 220px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.react-content {
+    width: 1050px;
+    height: 140px;
+    display: flex;
+    margin: 0 auto;
+    margin-left: 30px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.react-image{
+    margin-top: 25px;
+}
+
+.node-container {
+    width: 1140px;
+    height: 220px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.node-content {
+    width: 1050px;
+    height: 140px;
+    display: flex;
+    margin: 0 auto;
+    margin-left: 30px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.node-image{
+    margin-top: 25px;
+}
+
+.mongodb-container {
+    width: 1140px;
+    height: 220px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.mongodb-content {
+    width: 1050px;
+    height: 140px;
+    display: flex;
+    margin: 0 auto;
+    margin-left: 30px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.mongodb-image{
+    margin-top: 25px;
 }
